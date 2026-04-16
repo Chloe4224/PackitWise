@@ -664,9 +664,9 @@ export default function RTEPackagingRecyclingGame() {
   };
 
   const getPlayerType = () => {
-    if (score <= 5) return lang === "en" ? "🌱 Beginner (0–5)" : lang === "zhCN" ? "🌱 初学者（0–5分）" : "🌱 初學者（0–5分）";
-    if (score <= 10) return lang === "en" ? "♻️ Aware User (6–10)" : lang === "zhCN" ? "♻️ 觉察用户（6–10分）" : "♻️ 覺察用戶（6–10分）";
-    return lang === "en" ? "🌍 Recycling Pro (10+)" : lang === "zhCN" ? "🌍 回收专业（10分以上）" : "🌍 回收專業（10分以上）";
+    if (score <= 5) return lang === "en" ? "🌱 Beginner (0–5)" : lang === "zhCN" ? "🌱 入门选手（0–5分）" : "🌱 入門選手（0–5分）";
+    if (score <= 10) return lang === "en" ? "♻️ Aware User (6–10)" : lang === "zhCN" ? "♻️ 进阶玩家（6–10分）" : "♻️ 進階玩家（6–10分）";
+    return lang === "en" ? "🌍 Recycling Pro (10+)" : lang === "zhCN" ? "🌍 回收达人（10分以上）" : "🌍 回收達人（10分以上）";
   };
 
   return (
