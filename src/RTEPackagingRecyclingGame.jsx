@@ -420,9 +420,9 @@ const items = [
       zhHK: "一般垃圾",
     },
     explanation: {
-      en: "Plastic film is difficult to recycle.",
-      zhCN: "薄膜难回收",
-      zhHK: "薄膜難回收",
+      en: "Composite material is difficult to recycle.",
+      zhCN: "包含复合材料，难以回收",
+      zhHK: "包含復合材料，難以回收",
     },
   },
   {
